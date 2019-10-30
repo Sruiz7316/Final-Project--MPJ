@@ -13,7 +13,7 @@ $(document).ready(() => {
         .then(cred => {
           console.log('signin successful', cred)
           // login successful, redirect to members page
-          location.href = '/members'
+           location.href = '/members'
         })
         .catch(e => {
           $('#login-error').html('<p>Login Failed</p>')
