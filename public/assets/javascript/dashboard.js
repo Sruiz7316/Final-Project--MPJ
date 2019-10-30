@@ -156,3 +156,10 @@ function addImageToBox () {
 $(document).ready(function () {
   $('#submitImage').click(addImageToBox)
 })
+
+/////////////////////Sign out to work/////
+
+document
+    .getElementById('button-modal-signup')
+    .addEventListener('click', e => {
+      e.preventDefault()
